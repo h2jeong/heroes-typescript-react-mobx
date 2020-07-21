@@ -77,6 +77,7 @@ class HeroStore {
   @action setHero = (hero: THero): void => {
     this.hero = hero;
   };
+
   @computed get heroesCount(): number {
     return this.heroes.length;
   }

@@ -24,18 +24,18 @@ const Heroes = () => {
   };
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    console.log(e);
+    // console.log(e);
     heroStore.addHero(heroStore.hero);
   };
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
-    console.log(e);
+    // console.log(e);
     setNewHero({ ...newHero, [name]: value });
     heroStore.setHero(newHero);
   };
 
   return useObserver(() => (
-    <>
+    <div style={{ maxWidth: 900, margin: "0 auto" }}>
       <NewItemForm
         isOpen={isOpen}
         handleOpen={handleOpen}
@@ -91,7 +91,7 @@ const Heroes = () => {
         ))
       )}
       {heroStore.error && <p>{heroStore.error}</p>}
-    </>
+    </div>
   ));
 };
 

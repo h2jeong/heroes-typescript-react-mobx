@@ -29,7 +29,7 @@ const Villains = () => {
     villainStore.setVillain(newVillain);
   };
   return useObserver(() => (
-    <>
+    <div style={{ maxWidth: 900, margin: "0 auto" }}>
       <NewItemForm
         isOpen={isOpen}
         handleOpen={handleOpen}
@@ -85,7 +85,7 @@ const Villains = () => {
         ))
       )}
       {villainStore.error && <p>{villainStore.error}</p>}
-    </>
+    </div>
   ));
 };
 

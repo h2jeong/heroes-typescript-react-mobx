@@ -21,7 +21,7 @@ const EditVillain = ({ match }: any) => {
     villainStore.setVillain(updateVillain);
   };
   const handleGoBack = () => {
-    window.history.back();
+    window.history.go(-1);
   };
 
   return useObserver(() => (

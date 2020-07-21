@@ -1,13 +1,6 @@
 {
   "heroes": [
     {
-      "id": "839FFA6F-9768-9287-5D92-DBBBA456EC60",
-      "firstName": "Odette",
-      "lastName": "Carroll",
-      "house": "Kiribati",
-      "knownAs": "Vitae Odio Sagittis Inc."
-    },
-    {
       "id": "A3D523C0-F181-B49D-7F88-E8D72DD2EEC0",
       "firstName": "Justin",
       "lastName": "Lynch",
@@ -582,13 +575,6 @@
       "knownAs": "Foundatio"
     },
     {
-      "id": "GsLvPQf",
-      "firstName": "Justin",
-      "lastName": "Bieber",
-      "house": "Seattle",
-      "knownAs": "StarBuck"
-    },
-    {
       "id": "qHCu_eE",
       "firstName": "JaeKyun",
       "lastName": "Hwang",
@@ -601,22 +587,29 @@
       "lastName": "Lloyd",
       "house": "Sweden",
       "knownAs": "Sem Egestas Blandit Lt"
+    },
+    {
+      "id": "To6qBv5",
+      "firstName": "Heo",
+      "lastName": "KyoungMin",
+      "house": "KwangSan-gu, KwangJu-si",
+      "knownAs": "Heobogumm"
+    },
+    {
+      "id": "VP_CSWJ",
+      "firstName": "Adel",
+      "lastName": "Carroll",
+      "house": "saif al",
+      "knownAs": "Odio Tristique Ltd. "
     }
   ],
   "villains": [
-    {
-      "id": "E87B579D-42D0-E13A-52D5-0BC7E816B76F",
-      "firstName": "Dylan",
-      "lastName": "Martinez",
-      "house": "Tanzania",
-      "knownAs": "Vehicula Inc."
-    },
     {
       "id": "D80DB583-10DC-FE40-3FEE-706B11979E71",
       "firstName": "Tyler",
       "lastName": "Coleman",
       "house": "Nepal",
-      "knownAs": "Odio Tristique Ltd"
+      "knownAs": "Odio Tristique Ltd. "
     },
     {
       "id": "2358EC21-4633-926F-2308-D50614099686",
@@ -1184,6 +1177,20 @@
       "lastName": "Laynolz",
       "house": "Peru",
       "knownAs": "Facilisis LLP"
+    },
+    {
+      "id": "3WAvQql",
+      "firstName": "Addga",
+      "lastName": "Howling",
+      "house": "Indonesia",
+      "knownAs": "A Consulting"
+    },
+    {
+      "id": "QMSmbS3",
+      "firstName": "Justin",
+      "lastName": "Bieber",
+      "house": "Georgia",
+      "knownAs": "Vitae Odio Sagittis Inc."
     }
   ]
 }

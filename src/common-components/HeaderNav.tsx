@@ -37,23 +37,27 @@ const HeaderNav = () => {
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
             <Link className="nav-link" to="/heroes">
-              Heros
+              Heros{" "}
+              <span style={{ color: "purple" }}>{heroStore.heroesCount}</span>
             </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/villains">
-              Villains
+              Villains{" "}
+              <span style={{ color: "purple" }}>
+                {villainStore.villainsCount}
+              </span>
             </Link>
           </li>
         </ul>
 
-        <span className="mr-5" style={{ color: "purple", fontSize: "24px" }}>
+        {/* <span className="mr-5" style={{ color: "purple", fontSize: "24px" }}>
           Total heroes:{heroStore.heroesCount}
         </span>
 
         <span className="mr-5" style={{ color: "purple", fontSize: "24px" }}>
           Total villains:{villainStore.villainsCount}
-        </span>
+        </span> */}
       </div>
     </nav>
   ));

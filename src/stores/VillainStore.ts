@@ -20,7 +20,7 @@ class VillainStore {
   isLoading: boolean = false;
   error: string = "";
 
-  @computed get villainsCount() {
+  @computed get villainsCount(): number {
     return this.villains.length;
   }
 
